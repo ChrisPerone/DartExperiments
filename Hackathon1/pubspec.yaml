@@ -1,0 +1,9 @@
+name: Hackathon1
+description: A sample Polymer application
+dependencies:
+  browser: any
+  polymer: any
+  stagexl: any
+transformers:
+- polymer:
+    entry_points: web/hackathon1.html

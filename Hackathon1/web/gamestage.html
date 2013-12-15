@@ -1,0 +1,22 @@
+<polymer-element name="game-stage">
+  <template>
+    <style>
+      span {
+        font-size: 16pt;
+        text-align: center;
+        margin-top: 160px;
+      }
+      canvas {
+        width: 960px;
+        height: 480px;
+        position: relative;
+        border: 1px solid #ccc;
+        background-color: #000000;    
+      }
+    </style>
+    <canvas id='stage' on-click="{{startGame}}"></canvas><br>
+    <span>kills: {{kills}}</span>
+    <span>resources: {{resources}}</span>
+  </template>
+  <script type="application/dart" src="gamestage.dart"></script>
+</polymer-element>

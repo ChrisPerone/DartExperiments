@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample app</title>
+    <link rel="stylesheet" href="hackathon1.css">
+    
+    <!-- import the click-counter -->
+    <link rel="import" href="gamestage.html">
+    <link rel="import" href="shootbutton.html">
+    <script type="application/dart">export 'package:polymer/init.dart';</script>
+    <script src="packages/browser/dart.js"></script>
+  </head>
+  <body>
+    <h1>Hackathon1</h1>
+    <div id="container">
+      <game-stage></game-stage><br>
+      <button is="shoot-button">Bomb</button>
+    </div>
+  </body>
+</html>
