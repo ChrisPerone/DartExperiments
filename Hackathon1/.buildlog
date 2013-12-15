@@ -1532,3 +1532,15 @@ build.dart --machine --changed=web\actor.dart
 
 build.dart finished [2542 ms]
 
+---
+build.dart --machine --full
+Unable to open file: C:\Users\Adminpc\Documents\GitHub\DartExperiments\Hackathon1\packages\polymer\builder.dart'file:///C:/Users/Adminpc/Documents/GitHub/DartExperiments/Hackathon1/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [172 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [4222 ms]
+
